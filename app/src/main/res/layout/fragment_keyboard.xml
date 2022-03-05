@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".KeyboardFragment"
+    android:columnCount="4"
+    android:rowCount="5"
+    >
+
+        <TextView
+            android:id="@+id/clear"
+            android:text="C"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:id="@+id/down"
+            android:text="Down"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:id="@+id/up"
+            android:text="Up"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:id="@+id/delete"
+            android:text="Del"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:id="@+id/_7"
+            android:text="7"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:id="@+id/_8"
+            android:text="8"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:id="@+id/_9"
+            android:text="9"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:id="@+id/div"
+            android:text="-"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:id="@+id/_4"
+            android:text="4"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:id="@+id/_5"
+            android:text="5"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:id="@+id/_6"
+            android:text="6"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:text="+"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:id="@+id/_1"
+            android:text="1"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:id="@+id/_2"
+            android:text="2"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:id="@+id/_3"
+            android:text="3"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:text="+-"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:id="@+id/_0"
+            android:text="0"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:id="@+id/_000"
+            android:text="000"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:text="000000"
+            style="@style/key_calculator"
+            />
+
+        <TextView
+            android:text="="
+            style="@style/key_calculator"
+            />
+
+
+
+
+</GridLayout>
